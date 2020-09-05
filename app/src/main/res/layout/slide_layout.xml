@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sliderimage"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/coguardlogo"
+        android:layout_marginEnd="31dp" />
+
+    <TextView
+        android:id="@+id/slideheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1a1a1a"
+        android:layout_centerHorizontal="true"
+        android:text="HEADER"
+        android:layout_marginTop="265dp"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/slide_desc"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+         />
+</RelativeLayout>

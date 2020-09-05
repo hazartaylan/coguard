@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Auth.TelLog">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:src="@drawable/coguardlogo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="@string/do_rulama"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="@string/do_rulama_kodunuzu_a_a_ya_giriniz"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/blue"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textColor="@color/blue"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittextbg"
+            android:inputType="numberDecimal"
+            android:drawableRight="@drawable/ic_baseline_cancel_24"
+            />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:text="Giriş Yap"
+            android:textColor="@color/blue"
+            android:layout_gravity="center"
+            android:id="@+id/giris"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/logbg"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Tekrar kod yolla"
+                android:layout_marginLeft="40dp"
+                android:textColor="@color/blue"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Numara Değiştir"
+                android:textColor="@color/blue"
+                android:layout_marginLeft="80dp"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

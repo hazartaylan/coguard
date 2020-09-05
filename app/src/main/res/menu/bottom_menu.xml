@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/anasayfa"
+    android:title="Ana Sayfa"
+    android:visible="true"
+    android:icon="@drawable/stete"/>
+    <item android:id="@+id/profil"
+        android:icon="@drawable/profil"
+        android:visible="true"
+        android:title="Profil"/>
+
+</menu>

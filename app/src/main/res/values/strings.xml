@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CoGuard</string>
+    <string name="do_rulama">Doğrulama</string>
+    <string name="do_rulama_kodunuzu_a_a_ya_giriniz">Doğrulama kodunuzu aşağıya giriniz:</string>
+    <string name="telefon_numaras">Telefon Numarası</string>
+    <string name="telefon_numar_n_za_do_rulama_kodu_g_nderilecektir">Telefon numarınıza doğrulama kodu gönderilecektir.</string>
+</resources>
